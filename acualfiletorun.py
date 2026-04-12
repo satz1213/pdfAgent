@@ -18,14 +18,11 @@ from langchain_pinecone import PineconeVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import Pinecone
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
-from referencing import retrieval
 
 #these are building blocks for langchains: prompts, outputs
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
 
-from langchain_huggingface import ChatHuggingFace
 from config import *
 
 import gradio as gr
