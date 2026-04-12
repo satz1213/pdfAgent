@@ -4,8 +4,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 from importlib.metadata import metadata
 
-from gitdb.fun import chunk_size
-from pandas.io.formats.format import return_docstring
+
 ##Pinecone tools to manage and connect vector database
 from pinecone import Pinecone, ServerlessSpec
 
@@ -22,7 +21,6 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from referencing import retrieval
 
 #these are building blocks for langchains: prompts, outputs
-from sentence_transformers import SentenceTransformer
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
