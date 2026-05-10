@@ -44,3 +44,9 @@ pip install langchain-google-genai
 ## integrations for Huggingface through their generative-ai SDK.
 
 pip install langchain_huggingface
+
+
+
+PINECONE_API_KEY='pcsk_4kh5dW_Fw8nL2XDQe9mGxtqhG9AM1YXgXfE6ZDQJS7JrTg5RCBYskaYQ343A84JAbforCQ'
+GOOGLE_API_KEY='AIzaSyCHcUXCZ-DMAweP6IiSUTwdiGxeSVy6hAo'
+HF_TOKEN='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'
